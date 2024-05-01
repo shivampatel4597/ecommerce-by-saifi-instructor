@@ -1,0 +1,28 @@
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopping-card{
+  justify-content: space-between;
+  background-color: #61dafb;
+  padding: 20px 30px;
+}
+
+.product-item{
+  padding: 40px 50px ;
+}
+
+.cart{
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+.cart:hover{
+  color: black;
+  background-color: rgb(223, 209, 209);
+}
